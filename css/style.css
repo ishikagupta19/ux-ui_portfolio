@@ -1,0 +1,233 @@
+*{
+   padding: 0;
+   margin: 0;
+   font-family: 'Montserrat', sans-serif;
+}
+.bgimg{
+    width: 100%;
+    height: 80vh;
+    background-image: url("../images/Untitled design (9).png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(231, 255, 253);
+}
+.profile{
+    margin-top: 10%;
+    width: 450px;
+    height: 430px;
+    background-color: rgba(89, 78, 78, 0.3);
+    padding-top: 70px; 
+    
+    border-radius: 80%;
+}
+.profile1{
+    padding-bottom: 10px;
+    background-color: rgba(94, 93, 93, 0.153);
+}
+.ptext{
+    margin-bottom: 20px;
+    margin-top: 35px;
+
+}
+.ptext h2{
+    font-size: 2.8em;
+    margin-bottom: 20px;
+}
+.ptext h3{
+    font-size: 1.2em;
+    color: rgb(232, 253, 247);
+    margin-bottom: 20px;
+}
+.profile img{
+    height: 250px; margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+}
+i{
+    color: white;
+}
+
+hr{
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+}
+
+/* Header **/
+header {
+    background: #000000;
+    color: #ffffff;
+    padding-top: 10px;
+    position: fixed;
+    width: 100vw;
+    
+  }
+  
+  header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  
+  header li {
+    /* float: left; */
+    display: inline;
+    padding: 0 10px 0 10px;
+  }
+  
+  header #branding {
+    float: left;
+    
+  }
+  
+  /* header #branding h1 {
+    margin: 0;
+  } */
+  
+  header nav {
+    float: right;
+    margin-top: 7px;
+  }
+  
+  header .highlight,
+  header .current a {
+    color: #d63465;
+    font-weight: bold;
+  }
+  
+  header a:hover {
+    color: #d63465;
+    font-weight: bold;
+  }
+/* skill */
+
+.skills .progress {
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+  }
+  
+  .skills .progress .skill {
+    padding: 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+
+    color: #ffffff;
+  }
+  
+  .skills .progress .skill .val {
+    float: right;
+    font-style: normal;
+  }
+  
+  .skills .progress-bar-wrap {
+    background: #ffffff;
+    height: 10px;
+    border-radius: 25px;
+  }
+  
+  .skills .progress-bar1 {
+    width: 90%;
+    height: 10px;
+    transition: 0.9s;
+    border-radius: 25px;
+    background: linear-gradient(90deg, rgba(10,97,0,1) 0%, rgb(172, 225, 149) 29%);
+    
+  }
+  .skills .progress-bar2 {
+    width: 60%;
+    height: 10px;
+    transition: 0.9s;
+    border-radius: 25px;
+    background: linear-gradient(90deg, rgba(10,97,0,1) 0%, rgb(172, 225, 149) 29%);
+  }
+  .skills .progress-bar3 {
+    width: 70%;
+    height: 10px;
+    transition: 0.9s;
+    border-radius: 25px;
+    background: linear-gradient(90deg, rgba(10,97,0,1) 0%, rgb(172, 225, 149) 29%);
+  }
+  .skills .progress-bar4 {
+    width: 70%;
+    height: 10px;
+    transition: 0.9s;
+    border-radius: 25px;
+    background: linear-gradient(90deg, rgba(10,97,0,1) 0%, rgb(172, 225, 149) 29%);
+  }
+  .skills .progress-bar5 {
+    width: 70%;
+    height: 10px;
+    transition: 0.9s;
+    border-radius: 25px;
+    background: linear-gradient(90deg, rgba(10,97,0,1) 0%, rgb(172, 225, 149) 29%);
+  }
+  .skills .progress-bar6 {
+    width: 80%;
+    height: 10px;
+    transition: 0.9s;
+    border-radius: 25px;
+    background: linear-gradient(90deg, rgba(10,97,0,1) 0%, rgb(172, 225, 149) 29%);
+  }
+  .skills .progress-bar7 {
+    width: 50%;
+    height: 10px;
+    transition: 0.9s;
+    border-radius: 25px;
+    background: linear-gradient(90deg, rgba(10,97,0,1) 0%, rgb(172, 225, 149) 29%);
+  }
+  .skills .progress-bar8 {
+    width: 60%;
+    height: 10px;
+    transition: 0.9s;
+    border-radius: 25px;
+    background: linear-gradient(90deg, rgba(10,97,0,1) 0%, rgb(172, 225, 149) 29%);
+  }
+  .skills .progress-bar9 {
+    width: 85%;
+    height: 10px;
+    transition: 0.9s;
+    border-radius: 25px;
+    background: linear-gradient(90deg, rgba(10,97,0,1) 0%, rgb(172, 225, 149) 29%);
+  }
+  /* skill */
+
+  /*projects  */
+  .portfolio .portfolio-item {
+    margin-bottom: 30px;
+    cursor: pointer;
+  }
+  
+  
+  .portfolio .portfolio-wrap {
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    border-radius: 10px;
+  }
+
+  .portfolio .portfolio-wrap img{
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  }
+
+  .portfolio .portfolio-wrap:hover img{
+    -webkit-filter: grayscale(80%);
+	filter: grayscale(80%);
+  }
+  
+
+.image1{
+height: 20px;
+  }
+  
+  
+  
